@@ -8,26 +8,28 @@
   </head>
   <body>
     <div class="Header">
-        <!-- cSpell:ignore Valorant -->
-        <div class="title">
-            <h1>Valorant Store Checker</h1>
-        </div>
-        <div class="navigation">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-        </div>
-    </div>
-
-    <div class="search">
-      <div class="center-text">
-        <p>Enter your Riot ID and Tagline below</p>
+      <!-- cSpell:ignore Valorant -->
+      <div class="title">
+        <h2>Valorant Store Checker</h2>
       </div>
-      <form action="store.php" method="post">
-        <input type="text" name="name" placeholder="Riot ID" required />
-        <input type="text" name="tag" placeholder="Tagline" required />
-        <button type="submit">Submit</button>
-      </form>
+      <div class="navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </div>
     </div>
+    <div class="Content">
+      <div class="search">
+        <div class="center-text">
+          <p>Enter your Riot ID and Tagline below</p>
+        </div>
+        <form action="store.php" method="post" class="form">
+          <div class="input-fields">
+            <input type="text" name="name" placeholder="Riot ID" required />
+            <input type="text" name="tag" placeholder="Tagline" required />
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
     </div>
   </body>
 </html>
