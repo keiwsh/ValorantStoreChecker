@@ -1,0 +1,36 @@
+@font-face {
+  font-family: Valorant Font;
+  src: url(Valorant\ Font.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Valorant Font;
+  background-color: #403a56;
+  color: #315bb9;
+}
+
+.Header {
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #315bb9;
+}
+
+.navigation a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #315bb9;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
